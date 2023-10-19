@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Reset default margin and padding */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and center the calculator */
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Style the display area */
+.display {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the calculator buttons */
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+/* Add hover effect for buttons */
+.button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style the equals button differently */
+#equals {
+    background-color: #ff8800;
+    color: #fff;
+}
+
+/* Style the clear button differently */
+#clear {
+    background-color: #ff3333;
+    color: #fff;
+}
+
+/* Center the equals and clear buttons */
+#equals,
+#clear {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Style the backspace button */
+#backspace {
+    font-size: 24px;
+}
